@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    >
+
+    <TextView
+        android:id="@+id/chapter_index_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/surah_number_ic"
+        android:fontFamily="@font/jannaltbold"
+        android:gravity="center"
+        android:text="12"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/english_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:fontFamily="@font/jannaltbold"
+        android:text="Al-Fatiha"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/verses_number_tv"
+        app:layout_constraintLeft_toRightOf="@id/chapter_index_tv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/verses_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jannaltbold"
+        android:text="7 Verses "
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintLeft_toLeftOf="@id/english_title_tv"
+        app:layout_constraintTop_toBottomOf="@+id/english_title_tv" />
+
+    <TextView
+        android:id="@+id/arabic_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/jannaltbold"
+        android:text="الفاتحه"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/verses_number_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/english_title_tv" />
+
+    <View
+        android:id="@+id/cardView"
+        android:layout_width="302dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_marginEnd="42dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/verses_number_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
