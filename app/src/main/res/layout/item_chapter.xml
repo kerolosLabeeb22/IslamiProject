@@ -6,7 +6,6 @@
     android:layout_height="wrap_content"
     android:padding="12dp"
     >
-
     <TextView
         android:id="@+id/chapter_index_tv"
         android:layout_width="wrap_content"
@@ -21,7 +20,6 @@
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/english_title_tv"
         android:layout_width="wrap_content"
@@ -34,7 +32,6 @@
         app:layout_constraintBottom_toTopOf="@+id/verses_number_tv"
         app:layout_constraintLeft_toRightOf="@id/chapter_index_tv"
         app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:id="@+id/verses_number_tv"
         android:layout_width="wrap_content"
@@ -46,7 +43,6 @@
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintLeft_toLeftOf="@id/english_title_tv"
         app:layout_constraintTop_toBottomOf="@+id/english_title_tv" />
-
     <TextView
         android:id="@+id/arabic_title_tv"
         android:layout_width="wrap_content"
@@ -59,7 +55,6 @@
         app:layout_constraintBottom_toBottomOf="@+id/verses_number_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/english_title_tv" />
-
     <View
         android:id="@+id/cardView"
         android:layout_width="302dp"
@@ -71,5 +66,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/verses_number_tv" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
