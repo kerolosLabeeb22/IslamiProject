@@ -22,5 +22,15 @@ class ChaptersAdapter(val chapters: List<Chapter>): RecyclerView.Adapter<Chapter
         holder.itemBinding.englishTitleTv.text=chapter.titleEn
         holder.itemBinding.chapterIndexTv.text="${chapter.index+1}"
         holder.itemBinding.versesNumberTv.text=chapter.versesNumber
+        onItemClicks?.let {onClick->
+            holder.itemView.setOnClickListener {
+                onClick.onItemClick(position,chapter)
+            }
+        }
+
+    }
+    var onItemClicks: onItemClick? =null
+    fun interface onItemClick{
+        fun onItemClick(position: Int,chapter: Chapter)
     }
 }

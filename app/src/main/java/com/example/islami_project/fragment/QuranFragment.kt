@@ -1,14 +1,19 @@
 package com.example.islami_project.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.islami_project.R
+import com.example.islami_project.actvity.ChapterDetailsActivity
 import com.example.islami_project.adapter.ChaptersAdapter
+import com.example.islami_project.constant.EXTRA
+import com.example.islami_project.constant.EXTRA.EXTRA_CHAPTER
 import com.example.islami_project.constant.appConstants
 import com.example.islami_project.databinding.FragmentQuranBinding
+import com.example.islami_project.model.Chapter
 
 
 class QuranFragment : Fragment() {
@@ -28,6 +33,11 @@ class QuranFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         adapter= ChaptersAdapter(chapters)
+        adapter.onItemClicks=ChaptersAdapter.onItemClick { position, chapter ->
+            val intent =Intent(activity,ChapterDetailsActivity::class.java)
+            intent.putExtra(EXTRA.EXTRA_CHAPTER,chapter)
+            startActivity(intent)
+        }
         viewBinding.chapterRecycler.adapter=adapter
     }
     val chapters=appConstants.getChapter()
