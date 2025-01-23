@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="color_gold">#E2BE7F</color>
     <color name="color_indicator">#20202099</color>
+    <color name="darkGray">#202020</color>
 </resources>

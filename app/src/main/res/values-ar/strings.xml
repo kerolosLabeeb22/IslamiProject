@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Islami_project</string>
+    <string name="quran">"قران "</string>
+    <string name="Hadith">حديث</string>
+    <string name="Sebha">سبحة</string>
+    <string name="Radio">راديو</string>
+    <string name="Quran">القران</string>
+    <string name="hello_blank_fragment">فراجمنت</string>
+    <string name="Glory">سبحان الله</string>
+
+
+</resources>

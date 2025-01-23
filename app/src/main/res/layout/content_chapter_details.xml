@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_chapter_details"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/soura_details_screen2"
+    tools:context=".actvity.ChapterDetailsActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guide_top"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".02"
+        />
+    <TextView
+        android:id="@+id/chapter_title_ar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="الفاتحه"
+        app:layout_constraintTop_toBottomOf="@id/guide_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/color_gold"
+        android:textSize="24sp"
+        android:fontFamily="@font/jannaltbold"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/verses_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="122dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chapter_title_ar"
+        tools:listitem="@layout/item_chapter_details"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

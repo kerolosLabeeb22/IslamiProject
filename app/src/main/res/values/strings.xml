@@ -6,5 +6,7 @@
     <string name="Radio">Radio</string>
     <string name="Quran">Quran</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+
+
 </resources>

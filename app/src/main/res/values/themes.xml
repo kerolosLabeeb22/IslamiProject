@@ -14,5 +14,10 @@
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
         <item name="android:color">@color/color_indicator</item>
     </style>
+    
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+
+        <item name="colorControlNormal">@color/color_gold</item>
+    </style>
 
 </resources>
