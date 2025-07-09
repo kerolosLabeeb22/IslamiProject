@@ -64,7 +64,7 @@ Read from the Holy Quran with a simple, readable design — includes full surah 
 ## 🎥 Video
 
 
-https://github.com/user-attachments/assets/a9821c52-125c-4bfe-b5fa-6a4b9ebd5173
+https://github.com/user-attachments/assets/013f07ef-03ac-48b0-a472-a715ca5e66c3
 
 
 
