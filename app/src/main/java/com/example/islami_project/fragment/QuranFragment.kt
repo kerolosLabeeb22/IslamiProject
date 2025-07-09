@@ -6,14 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.islami_project.R
 import com.example.islami_project.actvity.ChapterDetailsActivity
 import com.example.islami_project.adapter.ChaptersAdapter
 import com.example.islami_project.constant.EXTRA
-import com.example.islami_project.constant.EXTRA.EXTRA_CHAPTER
 import com.example.islami_project.constant.appConstants
 import com.example.islami_project.databinding.FragmentQuranBinding
-import com.example.islami_project.model.Chapter
 
 
 class QuranFragment : Fragment() {

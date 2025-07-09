@@ -1,4 +1,4 @@
-package com.example.islami_project.model
+package com.example.islami_project.api.model
 
 data class Hadeth(
     val title: String,

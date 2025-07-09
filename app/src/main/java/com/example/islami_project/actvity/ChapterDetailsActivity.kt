@@ -4,14 +4,10 @@ import android.os.Build
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.islami_project.R
-import com.example.islami_project.adapter.ChaptersAdapter
 import com.example.islami_project.adapter.VersesAdapter
 import com.example.islami_project.constant.EXTRA
 import com.example.islami_project.databinding.ActivityChapterDetailsBinding
-import com.example.islami_project.model.Chapter
+import com.example.islami_project.api.model.Chapter
 
 class ChapterDetailsActivity : AppCompatActivity() {
     lateinit var viewBinding: ActivityChapterDetailsBinding

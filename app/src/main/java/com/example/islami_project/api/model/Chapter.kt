@@ -1,4 +1,4 @@
-package com.example.islami_project.model
+package com.example.islami_project.api.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

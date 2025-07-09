@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/radio_item_bg">
+
+    <TextView
+        android:id="@+id/radio_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Radio Ibrahim El kader"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/jannaltbold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:id="@+id/turn_off_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/radio_title"
+        app:layout_constraintStart_toStartOf="@id/radio_title"
+        app:layout_constraintEnd_toEndOf="@id/radio_title"
+        android:background="@drawable/ic_play"
+        android:layout_marginTop="60dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_volume"
+        app:layout_constraintStart_toEndOf="@id/turn_off_btn"
+        app:layout_constraintTop_toTopOf="@id/turn_off_btn"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="7dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

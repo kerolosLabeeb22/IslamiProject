@@ -3,9 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/radio_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/radio_background"
     tools:context=".fragment.RadioFragment">
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/radio_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        tools:listitem="@layout/radio_card"
+        />
 
 </FrameLayout>
