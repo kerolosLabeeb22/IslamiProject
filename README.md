@@ -73,7 +73,7 @@ https://github.com/user-attachments/assets/013f07ef-03ac-48b0-a472-a715ca5e66c3
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/kerolosLabeeb22/news_app.git
+   git clone https://github.com/kerolosLabeeb22/IslamiProject.git
    ```
 2. **Open the Project**
 Open the project using **Android Studio** or any IDE that supports Kotlin and Android development.
