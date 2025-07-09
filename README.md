@@ -13,38 +13,33 @@
 
 </div>
 
-## 🚀 Getting Started
+🚀 Getting Started
+Launch the App
+Open Islami and instantly access a peaceful and spiritual experience — no sign-up needed.
 
-- **Launch the App**
-  Open the app and explore the latest headlines instantly — no sign-up required.
+Explore the Features
+Browse Quran radio stations, read daily Azkar, and use the digital Sebha for tasbeeh anytime.
 
-- **Choose Your Interests**
-  Select your favorite news categories — Politics, Sports, Tech, Entertainment, and more.
+Use It Anytime, Anywhere
+Whether you're at home, on the go, or in a quiet moment — Islami is always with you.
 
-- **Stay Updated**
-  Enjoy real-time news updates tailored to your preferences, anytime and anywhere.
+🤳 Screens
+Splash Screen:
+Shows the Islami logo briefly (e.g. 3 seconds) before navigating to the main interface.
+
+Radio Screen:
+Browse and play from a list of 24/7 Quran radio stations — stream with one tap.
+
+Azkar Screen:
+Displays morning and evening Azkar in a clear, scrollable layout for daily remembrance.
+
+Sebha Screen:
+A digital tasbeeh counter for easy and mindful dhikr with reset and vibration features.
+
+Quran Screen:
+Read from the Holy Quran with a simple, readable design — includes full surah listing and navigation.
 
 
-
-## 🤳 Screens
-
-- **Splash Screen:**
-Displays the app logo briefly (e.g. 3 seconds) before navigating to the onboarding or home screen.
-
-- **Category Screen:**
-Allows users to select their preferred news categories such as Politics, Sports, Technology, and more.
-
-- **News Screen (Home):**
-Shows a curated list of top headlines and breaking news based on the selected categories.
-
-- **Articles Screen:**
-Displays full article content with images, titles, publication date, and author (if available).
-
-- **Search Screen:**
-Enables users to search for news by keywords or topics, with real-time results.
-
-- **Settings Screen:**
-Lets users customize preferences like language, dark mode, notifications, and more.
 
 <hr>
 
