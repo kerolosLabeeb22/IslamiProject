@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.islami_project.databinding.ItemHadethBinding
-import com.example.islami_project.model.Hadeth
+import com.example.islami_project.api.model.Hadeth
 class HadethCarouselAdapter(val hadethList:List<Hadeth>) :RecyclerView.Adapter<HadethCarouselAdapter.ViewHolder>(){
     class ViewHolder(val viewBinding: ItemHadethBinding):RecyclerView.ViewHolder(viewBinding.root){
 //

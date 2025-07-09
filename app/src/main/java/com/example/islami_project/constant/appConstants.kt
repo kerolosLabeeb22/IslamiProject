@@ -1,6 +1,6 @@
 package com.example.islami_project.constant
 
-import com.example.islami_project.model.Chapter
+import com.example.islami_project.api.model.Chapter
 
 object appConstants {
     val arabicQuranSurahs = listOf(

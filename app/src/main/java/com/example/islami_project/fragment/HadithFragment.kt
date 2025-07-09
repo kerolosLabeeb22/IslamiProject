@@ -9,8 +9,7 @@ import android.view.ViewGroup
 import com.example.islami_project.adapter.HadethCarouselAdapter
 import com.example.islami_project.constant.MarginItemDecoration
 import com.example.islami_project.databinding.FragmentHadithBinding
-import com.example.islami_project.databinding.FragmentQuranBinding
-import com.example.islami_project.model.Hadeth
+import com.example.islami_project.api.model.Hadeth
 import com.google.android.material.carousel.CarouselLayoutManager
 import com.google.android.material.carousel.CarouselSnapHelper
 import com.google.android.material.carousel.FullScreenCarouselStrategy

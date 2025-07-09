@@ -2,12 +2,12 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="app">
+      <SelectionState runConfigName="Islami_project.app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-01-18T22:09:58.680121600Z">
+        <DropdownSelection timestamp="2025-07-09T00:02:24.111811300Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\ALMASRIA 4 COMP\.android\avd\Pixel_7a_API_35.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=D:\AndroidAVD\Pixel_8_Pro.avd" />
             </handle>
           </Target>
         </DropdownSelection>

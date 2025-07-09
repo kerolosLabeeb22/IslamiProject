@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.islami_project.databinding.ItemChapterBinding
-import com.example.islami_project.model.Chapter
+import com.example.islami_project.api.model.Chapter
 class ChaptersAdapter(val chapters: List<Chapter>): RecyclerView.Adapter<ChaptersAdapter.ViewHolder>() {
     class ViewHolder(val itemBinding: ItemChapterBinding)
         : RecyclerView.ViewHolder(itemBinding.root)

@@ -6,6 +6,7 @@
     android:background="@color/darkGray"
     android:layout_width="match_parent"
     app:theme="@style/ToolbarTheme"
+    android:layout_marginTop="40dp"
     android:layout_height="wrap_content"
     android:elevation="0dp">
     <TextView
