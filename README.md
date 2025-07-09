@@ -50,7 +50,7 @@ Read from the Holy Quran with a simple, readable design — includes full surah 
 ## app mockup 
 <p align= "center">
      <kbd>
-        <img  src="https://github.com/user-attachments/assets/bf81be95-2f51-49be-a79f-f11979a0217e" alt="Get this app on YouTube Playlist Tutorials">
+        <img   src="https://github.com/user-attachments/assets/a4ddf153-cdcb-47a8-aa4e-f6e62ec2a4d8" alt="Get this app on YouTube Playlist Tutorials">
      </kbd>
   </a>
 
