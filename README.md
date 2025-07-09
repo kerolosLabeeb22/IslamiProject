@@ -57,16 +57,9 @@ Read from the Holy Quran with a simple, readable design — includes full surah 
 
 ## 📁 File Structure
 
-![Image](https://github.com/user-attachments/assets/fd07cf0a-1ba7-4c65-88b6-2c900ffa62a7)
-
-## 📱 UI
+![Image](https://github.com/user-attachments/assets/88651cf9-5e15-4621-b108-7fabfa4545fe)
 
 
-<p align= "center">
-     <kbd>
-        <img  src="https://github.com/user-attachments/assets/3893ca4e-1605-4b21-b42a-0853290443ed" alt="Get this app on YouTube Playlist Tutorials">
-     </kbd>
-  </a>
   
 ## 🎥 Video
 
