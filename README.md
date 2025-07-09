@@ -1,4 +1,4 @@
-# 📰 news app
+# 📰 Islami App
 
 <div align="start">
      <a href="https://api.visitorbadge.io/api/visitors?path=news_app&label=People%20who%20visited%20this%20page&countColor=%23263759" target="_blank">
@@ -13,32 +13,35 @@
 
 </div>
 
-🚀 Getting Started
-Launch the App
-Open Islami and instantly access a peaceful and spiritual experience — no sign-up needed.
+## 🚀 Getting Started
 
-Explore the Features
-Browse Quran radio stations, read daily Azkar, and use the digital Sebha for tasbeeh anytime.
+- **Launch the App**
+  Open the app and explore the latest headlines instantly — no sign-up required.
 
-Use It Anytime, Anywhere
-Whether you're at home, on the go, or in a quiet moment — Islami is always with you.
+- **Explore the Features**
+  Browse Quran radio stations, read daily Azkar, and use the digital Sebha for tasbeeh anytime.
 
-🤳 Screens
-Splash Screen:
+- **Use It Anytime, Anywhere**
+  Whether you're at home, on the go, or in a quiet moment — Islami is always with you.
+
+
+
+## 🤳 Screens
+
+- **Splash Screen:**
 Shows the Islami logo briefly (e.g. 3 seconds) before navigating to the main interface.
 
-Radio Screen:
+- **Radio Screen:**
 Browse and play from a list of 24/7 Quran radio stations — stream with one tap.
 
-Azkar Screen:
+- **Azkar Screen:**
 Displays morning and evening Azkar in a clear, scrollable layout for daily remembrance.
 
-Sebha Screen:
+- **Sebha Screen:**
 A digital tasbeeh counter for easy and mindful dhikr with reset and vibration features.
 
-Quran Screen:
+- **Quran Screen:**
 Read from the Holy Quran with a simple, readable design — includes full surah listing and navigation.
-
 
 
 <hr>
